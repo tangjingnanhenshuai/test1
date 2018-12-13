@@ -1,0 +1,229 @@
+
+
+.zhongw{
+	 width:100%;
+	 height: 620px;
+	 background: #f9f9f9;
+}
+#zhong{
+   width:500px;
+   height: 618px;
+   margin:0 auto;
+}
+.logindl{
+	 width:100%;
+	 height: 90px;
+	 line-height: 90px;
+	 text-align:center;
+	 margin-top: 16px;
+}
+.fform{
+	   width:310px;
+	 height: 380px;
+	 margin:0 auto;
+}
+.mimaw{
+		  display: block;
+	 width:310px;
+	 height: 40px;
+	 position: relative;
+}
+.fname{
+	  display: block;
+	 /*margin:0 auto;*/
+	 width:308px;
+	 height: 38px;
+	 border:1px solid #e6e6e6;
+	 margin-bottom: 15px;
+	 margin-top: 10px;
+	  font-size: 15px;
+	  text-indent: 20px;
+
+}
+  #iconfw{
+  	display: block;
+  	text-align:center;
+	width:30px;
+	height:36px;
+	 line-height: 38px;
+	 position: absolute;
+	 left:280px;
+	 top:2px;
+	 font-size: 20px;
+	 color: #a5a5a5;
+	 z-index: 1;
+  }
+  .icon-yanjing{
+  	font-size: 20px;
+  }
+  #iconfw:hover .icon-yanjing{
+	 color:black;
+  }
+
+#biyan{
+	line-height: 30px;
+	 position: absolute;
+	 font-size:20px;
+	  left:11px;
+	 top:3px;
+	 color: #a5a5a5;
+}
+  #iconfw:hover #biyan{
+	 color:black;
+  }
+  #pasddm{
+  	 position: absolute;
+  	 left: 0;
+  	 top: 0;
+  	 display: none;
+  }
+  #usernamespan{
+  	 line-height:20px;
+  	 color:#eb0028;
+  	 font-size:15px;
+  	 display: none;
+  }
+  #phpspan{
+    line-height:20px;
+     color:#eb0028;
+     /*color:red;*/
+     font-size:15px;
+     display: none;
+  }
+  #huakuai{
+  	position: relative;
+  }
+  #huakuaihou{
+  	position: absolute;
+  	left: 0;
+  	top: 0;
+  	 width:308px;
+	 height: 38px;
+	 background: #e8e8e8;
+  }
+  #huakuaizuo{
+
+  		position: absolute;
+  	left: 0;
+  	top: 0;
+  	background: #7ac23c;
+  	height: 38px;
+  	width:0px;
+  }
+  #kuaikuai{
+  	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	text-indent: 0;
+  	font-size: 20px;
+  	 display: block;
+  	 width:40px;
+  	 height: 38px;
+  	border-color: #cccccc;
+    cursor: move;
+  	 text-align: center;
+  	 line-height: 38px;
+  	 background:#ffffff;
+  	 color: #9e9ebd;
+  	 z-index: 2;
+  }
+  #kuaizi{
+  	position: absolute;
+  	text-align: center;
+  	left: 50px;
+  	color: #818181;
+  	line-height: 38px;
+  	 z-index: 1;
+  }
+  #huakuaishan{
+  	 display: block;
+  	 width:20px;
+  	 height: 38px;
+  	 position: absolute;
+  	 top:0px;
+  	 opacity: 0.8;
+  	 background: #fff;
+  	 border-radius: 50%;
+  	 box-shadow: inset 10px 0px  30px  #e8e8e8,inset -3px -3px  30px  #e8e8e8;
+  }
+  #huakyz{
+      display: block;
+     width:300px;
+     height: 25px;
+     line-height: 25px;
+     color:#eb0028;
+     margin-top:10px;
+     font-size: 16px;
+     text-indent: 20px;
+     display: none;
+  }
+  #tijiao{
+  	 background: #eb0028;
+  	 color:#fef7f8;
+  	 text-indent: 0;
+  	 border-radius: 3px;
+  }
+  #tijiao:hover{
+    background: #b8001f;
+  }
+  .qita{
+  	position: relative;
+     width:308px;
+	 height: 246px;
+	 border-top: 1px solid #e6e6e6;
+	 margin:-90px auto;
+  }
+  .qitazi{
+  	   display: block;
+  	   width:130px;
+  	   height: 40px;
+  	   text-align: center;
+  	   line-height: 40px;
+  	   background: #f9f9f9;
+  	   position: absolute;
+  	     top:-20px;
+  	   left: 90px;
+  	   font-size: 14px;
+  	   color:#666666;
+  }
+  .qitafangshi{
+  	 display: block;
+  	 float: left;
+  	 margin-top:50px;
+  	 margin-left:23px;
+  	 width:60px;
+  	 height: 60px;
+  	 border-radius: 50%;
+  	 background-size: 100%;
+  }
+
+  #qita1{
+  	 background-image: url(../img/weib2.jpg);
+  }
+  #qita2{
+  	 background-image: url(../img/qq.jpg);
+  }
+   #qita3{
+  	 background-image: url(../img/wechat2.jpg);
+  }
+  .qitazhuce{
+  	position: absolute;
+  	bottom: 40px;
+  	 display: block;
+  	  width:100px;
+  	  height: 30px;
+  	  text-align: center;
+  	  line-height: 30px;
+  	  font-size: 17px;
+  	  color:#0099cc;
+  }
+  .qitazhuce:hover{
+  	 text-decoration: underline;
+  }
+  #qitaz1{
+  	left: 50px;
+  	border-right:2px solid #dfdfdf;
+  }
+    #qitaz2{
+  	left: 150px;
+  }

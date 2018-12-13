@@ -1,0 +1,909 @@
+
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+       }  
+       body{
+       	font-family:"微软雅黑" 	Arial;
+       	overflow-x: hidden;
+       }
+       ul,ol{
+       	list-style:none;
+       }
+       li{
+       	list-style:none;
+       }
+       a{
+       	text-decoration:none;
+       }
+       img{
+       	border:0;
+       }
+       html,body{
+       	width:100%;
+       	height:100%;
+       }
+       header{
+       	width:100%;
+       	height:68px;
+       	background: white;
+       }
+       .headern{
+       	width:1580px;
+       	height: 68px;
+       	margin:0 auto;
+       	position: relative;
+       	
+       }
+       .headerimg{
+           width:39px;
+           height: 37px;
+           position: absolute;
+           left: 150px;
+           top:14px;
+       }
+       .headerul{
+       	width:1080px;
+       	height: 66px;
+       	 position: absolute;
+       	 left: 220px;
+       }
+       .headerul li{
+       	 float: left;
+       	 width:180px;
+       	 height: 66px;
+       }
+       .headerul li a{
+       	display: block;
+       	color: #8d8d99;
+       	 width:180px;
+       	 height: 66px;
+       	  line-height: 66px;
+       	 text-align: center;
+       }
+       .headerul li:hover a{
+          color: red;
+          border-bottom: 2px solid red;
+       }
+         .headeryou{
+       	position: absolute;
+       	right: 50px;
+       	top: 0;
+       	 width:195px;
+       	 height: 66px;
+       }
+       .headeryoum{
+       	float: left;
+       	position: relative;
+       	width:65px;
+       	height:64px;
+       	line-height: 66px;
+       	color: #828282;
+       }
+   
+       .headeryoumaaa{
+          display: block;
+          width:65px;
+          height:64px;
+        text-align: center;
+          }
+       .headeryouaasapn{
+        text-align: center;
+          display: block;
+      width:65px;
+      height: 64px;
+      position: absolute;
+        left: 0;
+        top: 0;
+       }
+       .headeryoum:hover .headerhy{
+       	display: block;
+       }
+       .headeryoum:hover {
+       	color:black;
+       	border-bottom: 2px solid black;
+       }
+          
+  
+       .headeryouaasapn i{
+       	font-size: 24px;
+       }
+     
+       .headerhy{
+       	padding:30px;
+       	background:white;
+       	display: block;
+         width:306px;
+       	height:250px;
+       	position: absolute;
+       	top:66px;
+       	left:-220px;
+       	display: none;
+       	z-index: 2;
+       }
+     #tnew{
+   display: block;
+   width:50px;
+   height: 14px;
+   color:red;
+   font-size: 12px;
+   z-index: 1;
+   margin-top: -75px;
+   margin-left: 130px;
+}
+       .headerhy a{
+       	display: block;
+       	width:316px;
+       	height:60px;
+       	color:#828282;
+       	font-size: 18px;
+       	border-bottom: 1px solid  #828282;
+       }
+       .headerhy a:hover{
+       	 color:black;
+       }
+    
+           #yonghu{
+          float: left;
+          width:200px;
+            height: 90px;
+          line-height: 90px;
+               text-align: center;
+            
+              font-size: 16px;
+           color:#3f9fcd;
+         display: none;
+        }
+        #tuichu{
+                float: left;
+                 width:60px;
+                text-indent:20px;
+
+               height: 90px;
+               text-align: center;
+               line-height: 90px;
+              color:#3f9fcd;
+              border:none;
+              font-size: 16px;
+               cursor:pointer;
+              display: none;
+        }
+        #tuichu:hover{
+            text-decoration: underline;
+        }
+      #denglv{
+          height: 90px;
+          line-height: 90px;
+         color:#3f9fcd;
+         border:none;
+         /*display: none;*/
+       }
+       #denglv:hover{
+        text-decoration:underline;
+       }
+      #headerhyy{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding:15px;
+        background:white;
+        display: block;
+         width:306px;
+        position: absolute;
+        top:66px;
+        display: none;
+        z-index: 2;
+      	left: -300px;
+      	width:330px;
+      	 text-align: center;
+      }
+      .shang{
+          display: flex;
+          justify-content: flex-start;
+         width:320px;
+         height:121px;
+         display: flex;
+         /*border-bottom: 1px solid #dfdfdf;*/
+        border-bottom:1px solid  #828282;
+         /*border-bottom: 1px solid #eee;*/
+      }
+      .shangspan{
+          float: left;
+          display: block;
+          margin-top: 20px;
+          width:78px;
+          height: 78px;
+          border:1px solid #efefef;
+          background-image: url(../img/shangpin1.jpg);
+          /*border:1px solid #000;*/
+          /*background: darkgoldenrod;*/
+      }
+      .shangps{
+             line-height: 50px;
+         font-size: 14px;
+         color: #696857;
+          margin-left: 10px;
+      }
+      .shangpx{
+        width:300px;
+        height: 40px;
+         background:pink;
+      }
+      .shangpxsl{
+         margin-left: 80px;
+      }
+      #headermmd{
+         display: block;
+         width:320px;
+         height: 121px;
+         line-height: 121px;
+          color:#828282;
+           font-size: 18px;
+        border-bottom: 1px solid  #828282;
+        /*display: none;*/
+      }
+      #hedmmmpp{
+          /*position: absolute;*/
+          /*bottom:10px;*/
+          /*left: 30px;*/
+          margin-top: 10px;
+        display: block;
+        width:320px;
+        height:40px;
+        line-height: 40px;
+            background-color:#eb0028;
+            color:white;
+        background:red;
+        border-radius: 5px;
+      }
+      #shangpin{
+         margin-top: 5px;
+         width:316px;
+         display: flex;
+         flex: 1;
+         flex-direction: column;
+         justify-content: flex-start;
+         /*height: 180px;*/
+      }
+   
+    .deaderyoumm:hover #headerhyy{
+      display: block;
+    }
+    .deaderyoumm{
+    	position: relative;
+    }
+      .headeryou.deaderyoumm{
+      	height: 220px;
+      }
+      .deaderyoumm .hedmmmpp{
+      	 height: 60px;
+      }
+     .deaderyoumm .hedmmmp:nth-child(2){
+     	border: none;
+     }
+     #zbox{
+       	width:100%;
+       	height:800px;
+       }
+      .navn{
+     	position: relative;
+      	 width:1580px;
+      	 height: 800px;
+      	 margin:0 auto;
+      }
+       #zboxs1{
+        background-image: url(../img/one2.jpg);
+        background-size: 100%;
+        position: relative;
+       }
+          #zbone,#zbone3{
+          	display: block;
+          	width:150px;
+          	height: 40px;
+          	position: absolute;
+          	left: 230px;
+          	top: 250px;
+		 	color:white;
+		 	font-size:24px;
+		 }
+		 #zbone3{
+		 	top: 360px;
+		 	font-size:26px;
+		 }
+		 #zbone2{
+		 	display: block;
+          	width:350px;
+          	height: 70px;
+          	position: absolute;
+          	left: 230px;
+          	top: 290px;
+		 	color:white;
+		 	font-size:42px;
+		 }
+		 #zbone4{
+		 	display: block;
+		 	width:156px;
+		 	height: 50px;
+		 	position: absolute;
+		 	left: 230px;
+		 	top:410px;
+		 	border:1px solid #87868f;
+		 	color:white;
+		 	text-align: center;
+		 	line-height: 50px;
+		 	font-size: 20px;
+		 }
+		  #zbone5{
+		 	width:156px;
+		 	height: 50px;
+		 	position: absolute;
+		 	left: 230px;
+		 	top:470px;
+		 	color:white;
+		 	line-height: 50px;
+		 	font-size: 18px;
+		 }
+         #zboxs2{
+        background-image: url(../img/nav33.jpg);
+        background-size: 100%;
+
+         position: relative;
+       }
+        .zbtwo {
+        	width:200px;
+        	height: 65px;
+        	color:white;
+        	position: absolute;
+        	font-size: 24px;
+        	left: 960px;
+        }
+      #zbtwo1{
+      	  top:200px;
+      	  left: 990px;
+      }
+        #zbtwo2{
+        	width:400px;
+        	top:250px;
+        	font-size: 44px;
+        }
+        #zbtwo3{
+        	 left: 990px;
+             top:330px;
+        }
+        #zbtwo4{
+        	display: block;
+		 	width:156px;
+		 	height: 50px;
+		 	position: absolute;
+		 	 left: 970px;
+		 	top:390px;
+		 	border:1px solid #87868f;
+		 	color:white;
+		 	text-align: center;
+		 	line-height: 50px;
+		 	font-size: 20px;
+        }
+         #zbtwo5{
+         	top:470px;
+         }
+
+         #zboxs3{
+        background-image: url(../img/nav3.jpg);
+        background-size: 100%;
+
+         position: relative;
+       }
+       #zbthree1{
+       	 position: absolute;
+       	 left: 48px;
+       	 top:34px;
+       }
+
+       .zbthree{
+	        width:350px;
+        	height: 65px;
+        	color:white;
+        	position: absolute;
+        	font-size: 24px;
+        	left: 280px;
+       }
+        #zbthree2{
+        	width:300px;
+        	font-size:46px;
+        	top:260px;
+        }
+       #zbthree3{
+          font-size:28px;
+          top:340px;
+       }
+       #zbthree4{
+       		display: block;
+		 	width:156px;
+		 	height: 50px;
+		 	position: absolute;
+		 	top:400px;
+		 	border:1px solid #87868f;
+		 	color:white;
+		 	text-align: center;
+		 	line-height: 50px;
+		 	font-size: 20px;
+       }
+        #zbthree5{
+        	font-size: 17px;
+        	top: 470px;
+        }
+           #zbthree6{
+        	font-size: 17px;
+        	top: 510px;
+        }
+        #zuo{
+		 	width:60px;
+		 	height:60px;
+		 	position: absolute;
+		 	left: 10px;
+		 	top:400px;
+		 	background-image: url(../img/zuo.png);
+		 	background-size: 60px 60px;
+		 	border-radius: 50%;
+		 	z-index: 1;
+		 }
+		 #you{
+		 	width:60px;
+		 	height:60px;
+		 	position: absolute;
+		 	right: 10px;
+		 	top:400px;
+		 	background-image: url(../img/you.png);
+		 	background-size: 60px 60px;
+		 	border-radius: 50%;
+		 	z-index: 1;
+		 }
+		 #zuo:hover{
+		 	box-shadow: inset 5px 5px  30px  #d9d9d9,inset -5px -5px  30px  #d9d9d9;
+		 }
+		  #you:hover{
+		 	box-shadow: inset 5px 5px  30px  #d9d9d9,inset -5px -5px  30px  #d9d9d9;
+		 }
+		  #uls{ 
+		 	  display: block;
+		 	  position: absolute;
+		 	  bottom: 50px;
+		 	  left:650px;
+		 	  z-index: 1;
+		 }
+		#uls li {
+	        float: left;
+	        margin-left:20px;
+	        width:50px;
+	        height: 10px;
+	        background: #fff;
+		 }
+		#uls li:nth-child(1){
+		 	background: red;
+		 }
+	
+		 .hedmmmpp{
+		 	padding:30px;
+		 }
+        #fengche{
+        	 width:100%;
+        	 height:298px;
+        }
+        .fengchen{
+        	width:1580px;
+        	height: 298px;
+        	display: flex;
+        	margin:0 auto;
+        }
+        .fengchen div{
+        	width:33.34%;
+        	height: 100%;
+        	position: relative;
+        }
+        #fengche div img{
+        	width:100%;
+        	height: 100%;
+        }
+     
+        .fengchespan{
+        		display: block;
+        	width:280px;
+        	height: 50px;
+        	color:black;
+        	position: absolute;
+        	left :50px;
+        	top:20px;
+        	font-size: 24px;
+        }
+        #fadian{
+        	width:100%;
+        	height: 600px;
+        }
+        .fadiann{
+        	width:1580px;
+        	height: 600px;
+        	margin:0 auto;
+        		background-image: url(../img/fadian2.jpg);
+        	background-size: 100%;
+        	position: relative;
+        }
+        #fadianone{
+        	display: block;
+        	width:500px;
+        	color: white;
+        	position: absolute;
+        	left:700px;
+        	top:240px;
+        	font-size: 50px;
+        }
+        #fadianc{
+        	 width: 140px;
+        	 height: 45px;
+        	 border: 1px solid white;
+        	 position: absolute;
+        	 left: 800px;
+        	 top: 330px;
+        }
+        #fadianh{
+        	display: block;
+        	 width: 0px;
+        	 height: 45px;
+        	 background: white;
+        }
+        #fadiancy{
+        	 position: absolute;
+        	 widows:100px;
+        	 left: 35px;
+        	 top:13px;
+        	 color:white;
+        }
+        #fadianc:hover #fadianh{
+              width:140px;
+              transition:all .6s;
+        }
+        #fadianc:hover #fadiancy{
+        	 color:#929292;
+              transition:all 0.2s;
+        }
+        #bok{
+        	width:100%;
+        	height: 527px;
+        	background: #f6f6f6;
+        }
+        .bokn{
+        	width:1400px;
+        	height: 527px;
+        	margin:0 auto;
+        }
+        .bokk {
+        	width:347px;
+        	height: 337px;
+        	float: left;
+        	margin-left: 19px;
+        	margin-top: 95px;
+        	position: relative;
+        	background: #ffffff;
+        }
+       #bok1{
+        	margin-left:100px;
+        }
+        .bokk img{
+        	position: absolute;
+        	left: 0;
+        	top: 0;
+        	width:100%;
+        	height: 216px;
+        }
+        .bokkone{
+        	position: absolute;
+        	left: 30px;
+        	top: 230px;
+        	font-size: 18px;
+        	color:#333333;
+        }
+        .bokktwo{
+        	position: absolute;
+        	left: 30px;
+        	top: 280px;
+        	font-size: 14px;
+        	color: #929292;
+        }
+         .bokk:hover{
+             margin-top: 90px;
+         	 box-shadow:8px 15px  30px  #d9d9d9,-8px -2px  30px  #d9d9d9;
+              transition:all 0.2s;
+
+         	}
+         	.shouhouw{
+         		width:100%;
+         		height: 175px;
+         		background: #ffffff;
+         		border-bottom: 1px solid #e3e3e3;
+         	}
+         	#shouhou{
+         		display: block;
+         		width:1400px;
+         		height: 175px;
+         		margin:0 auto;
+         		
+         	}
+         	#shouhou li{
+              float: left;
+              width:275px;
+              height: 175px;
+              position: relative;
+         	}
+         #shouhou li:nth-child(1){
+         	margin-left: 80px;
+         }
+           .shouhoua{
+           	 display: block;
+           	 width:60px;
+           	 height: 60px;
+           	 position: absolute;
+           	 left: 103px;
+           	 top: 40px;
+           	 background-image: url(../img/sh.png);
+           }
+           .shouhoup{
+           	color:#6b6f70;
+           	position: absolute;
+           	left:80px;
+           	top:125px;
+           }
+           .shouhoua:nth-child(1){
+           	 background-position: -10px 190px;
+           }
+
+         #shouhoua2{
+         	 	 background-position: -10px -10px;
+         }
+          #shouhoua3{
+         	 	 background-position: -10px -250px;
+         }
+           #shouhoua4{
+         	 	 background-position: -10px 70px;
+         }
+         #hou{
+         	width:100%;
+         	height: 267px;
+         	background: #fcfcfc;
+         }
+         .houn{
+         	width:1400px;
+         	height: 267px;
+         	margin:0 auto;
+         }
+         .hous{
+         	display: block;
+         	width:216px;
+         	height: 267px;
+         	text-align: center;
+         	line-height: 35px;
+         	float: left;
+            color:#8d8591;
+            font-size: 11px;
+         }
+         .hous li a{
+         	color:#8d8591;
+         }
+
+         .hous li:first-child{
+         	 margin-top: 40px;
+         	 color:#263542;
+            font-size: 14px;
+
+         }
+         #hous1{
+         	margin-left: 80px;
+         }
+         #hous5{
+         	position: relative;
+         }
+          #dianhuahaoma{
+             display: block;
+             width:142px;
+             height: 30px;
+           /*  left: 40px;
+              top:35px;*/
+              margin-left: 40px;
+              margin-top: 45px;
+          }
+          #kefuwai{
+         	 position: relative;
+             overflow: hidden;
+          	 display: block;
+          	 width:214px;
+          	 height: 45px;
+          	 line-height: 45px;
+          	 margin-top: 27px;
+          	 border:1px solid #101920;
+          	 background: #ffffff;
+          }
+          #kefuhou{
+          	position: absolute;
+          	left: 0;
+          	top: 0;
+          	 display: block;
+          	  width:0px;
+          	 height: 45px;
+          	 background: #000;
+          }
+          #zaixiankefu{
+          	 	position: absolute;
+          	left: 68px;
+          	font-size: 18px;
+          	 color:#2d2e34;
+          	 line-height: 45px;
+             z-index: 1;
+          }
+         #kefuwai:hover #kefuhou{
+               width:214px;
+               transition: all 0.6s;
+                color:white;
+
+
+         }
+         #kefuwai:hover #zaixiankefu{
+                color:white;
+               transition: all 0.3s;
+         }
+         #shij{
+         	 line-height: 60px;
+         }
+         #WeChat{
+         	 position: relative;
+         	 width:24px;
+         	 height: 20px;
+         	margin-left: 70px;
+         	background-image: url(../img/wechat.jpg);
+         	background-size: 100%;
+         }
+         #weib{
+         	 display:block;
+         	 position: absolute;
+         	 left: 128px;
+         	 top: 209px;
+         	 width:24px;
+         	 height: 20px;
+         	 background-image: url(../img/weib.jpg);
+         	background-size: 100%;
+         }
+         #WeChatx{
+         	  display: block;
+         	  width:124px;
+         	  height: 124px;
+         	  position: absolute;
+         	  left: -50px;
+         	  top: -124px;
+         	  z-index: 1;
+         	  display: none;
+         }
+         #WeChat:hover #WeChatx{
+         	display: block;
+         }
+         .chinaw{
+         	  width:100%;
+         	  height: 126px;
+         	  background: #f9f9f9;
+         }
+         .chinan{
+         	width:1200px;
+         	height: 126px;
+         	margin:0 auto;
+         }
+         .china{
+         	width:1264px;
+         	height: 126px;
+         	margin:0 auto;
+         	  border-bottom:1px solid #e1e1e1;
+              position: relative;
+         }
+         #guoqi{
+         	position: absolute;
+         	left: 70px;
+         	top:55px;
+         	display: block;
+         	 width:20px;
+         	 height: 15px;
+         	 background-image: url(../img/guoqi.png);
+         	 background-position: 0 -63px;
+         }
+         #china2{
+         		position: absolute;
+         	left: 100px;
+         	top:49px;
+         	font-size: 18px;
+         	color:#656565;
+         }
+         .yinsi,.xieyi,.anquan{
+         	position: absolute;
+         	top: 49px;
+         	display: block;
+         	border-right: 1px solid #515770;
+         	width:95px;
+         	height: 14px;
+         	 color:#515770;
+         	 font-size: 14px;
+         	 text-align: center;
+         }
+         .yinsi{
+         	left: 800px;
+         }
+         .xieyi{
+         	left: 900px;
+         }
+         .anquan{
+         	left: 1000px;
+         	border: none;
+         }
+         footer{
+         	width:100%;
+         	height: 115px;
+         }
+         .fshang{
+         	position: relative;
+         	width:100%;
+         	height: 37px;
+         	margin: 16px auto;
+         }
+         .fshang1{
+         	position: absolute;
+         	left: 50px;
+         	line-height: 37px;
+         	font-size: 14px;
+         	color:#b4b4b4;
+         }
+         .yingye{
+         	position: absolute;
+         	display: block;
+         	width:88px;
+         	height: 31px;
+         	background-image: url("../img/yingye.png");
+         	left: 830px;
+         	top: 3px;
+         	background-size: 100%;
+         }
+         .kexin{
+         	position: absolute;
+         	display: block;
+         	width:88px;
+         	height: 31px;
+         	background-image: url("../img/cnnic.png");
+         	left: 980px;
+         	top: 3px;
+         	background-size: 100%;
+         }
+         .fxia{
+         	position: relative;
+         		width:100%;
+         	height: 37px;
+         	margin-top: 16px;
+         }
+         .fxian{
+         	width:1200px;
+         	height: 115px;
+         	margin:0 auto;
+         }
+         .fxiaw{
+         	position: absolute;
+         	 left: 50px;
+             display: block;
+         	 width: 500px;
+         	 height: 37px;
+         	 line-height: 37px;
+         }
+         .fxiaz{
+         	 position: absolute;
+         	 top:7px;
+         	 display: block;
+         	 width:23px;
+         	 height:23px;
+         	 background-image: url(../img/badge.png);
+         	 background-size: 100%;
+         }
+         .gongan{
+         	position: absolute;
+         	left: 32px;
+         	color: #4a5055;
+         }
